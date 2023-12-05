@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class App{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the lenght of side pf the hexagon: ");
+        System.out.println("Enter the lenght of side of the hexagon: ");
         double sideLength = scanner.nextDouble();
         while (sideLength<0) {
             System.out.println("Side length cannot be negative. Please enter a valid number: ");
